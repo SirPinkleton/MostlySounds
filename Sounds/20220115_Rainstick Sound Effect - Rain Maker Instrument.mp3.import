@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cuv0uaxqchjd4"
+path="res://.godot/imported/20220115_Rainstick Sound Effect - Rain Maker Instrument.mp3-3055467687bda48efc76caf1c78bf002.mp3str"
+
+[deps]
+
+source_file="res://Sounds/20220115_Rainstick Sound Effect - Rain Maker Instrument.mp3"
+dest_files=["res://.godot/imported/20220115_Rainstick Sound Effect - Rain Maker Instrument.mp3-3055467687bda48efc76caf1c78bf002.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

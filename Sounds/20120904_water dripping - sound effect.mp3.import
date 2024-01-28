@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c5xbmhi0w7qd8"
+path="res://.godot/imported/20120904_water dripping - sound effect.mp3-34eadb27436885a1025ca5391c38e00d.mp3str"
+
+[deps]
+
+source_file="res://Sounds/20120904_water dripping - sound effect.mp3"
+dest_files=["res://.godot/imported/20120904_water dripping - sound effect.mp3-34eadb27436885a1025ca5391c38e00d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

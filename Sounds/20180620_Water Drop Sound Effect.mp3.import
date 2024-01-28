@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c61o85lnoi7v2"
+path="res://.godot/imported/20180620_Water Drop Sound Effect.mp3-82402604eb70ca0c6dcbb8168804bbcb.mp3str"
+
+[deps]
+
+source_file="res://Sounds/20180620_Water Drop Sound Effect.mp3"
+dest_files=["res://.godot/imported/20180620_Water Drop Sound Effect.mp3-82402604eb70ca0c6dcbb8168804bbcb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

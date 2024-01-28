@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cobx1mrpk2cvn"
+path="res://.godot/imported/20190128_His hair wack! full version.mp3-95dd34fe2ffe97c3734c04f281a59901.mp3str"
+
+[deps]
+
+source_file="res://Sounds/20190128_His hair wack! full version.mp3"
+dest_files=["res://.godot/imported/20190128_His hair wack! full version.mp3-95dd34fe2ffe97c3734c04f281a59901.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
