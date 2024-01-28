@@ -1,0 +1,860 @@
+[gd_scene load_steps=45 format=3 uid="uid://du5es8dk3660d"]
+
+[ext_resource type="PackedScene" uid="uid://du6bx5ywthecm" path="res://Nodes/Options.tscn" id="1_luay3"]
+[ext_resource type="Script" path="res://CSharpClasses/MouseCursor.cs" id="1_p1o3u"]
+[ext_resource type="Script" path="res://CSharpClasses/CastSpell.cs" id="2_4ydm8"]
+[ext_resource type="Texture2D" uid="uid://04uttsyvumuf" path="res://Images/RedButtonUnpressed.png" id="2_agngd"]
+[ext_resource type="AudioStream" uid="uid://dygggf7r7y0o3" path="res://Sounds/err.mp3" id="3_s6vih"]
+[ext_resource type="Texture2D" uid="uid://cn0wwsksk14th" path="res://Images/RedButtonPressed.png" id="3_uumao"]
+[ext_resource type="Script" path="res://CSharpClasses/StopAllSoundsButton.cs" id="4_v0dhb"]
+[ext_resource type="Texture2D" uid="uid://qn4iibobd6n7" path="res://Images/gear.png" id="5_mc3vq"]
+[ext_resource type="Script" path="res://CSharpClasses/OpenSettingsButton.cs" id="6_hxemp"]
+[ext_resource type="Texture2D" uid="uid://bhe7riymjpjku" path="res://Images/BlueButtonUnpressed.png" id="7_6imur"]
+[ext_resource type="Texture2D" uid="uid://cgpteug0mkqwt" path="res://Images/BlueButtonPressed.png" id="8_nlq4y"]
+[ext_resource type="Script" path="res://CSharpClasses/SoundButton.cs" id="9_u4l71"]
+[ext_resource type="AudioStream" uid="uid://laqas5lp8n0k" path="res://Sounds/Uuuuuu-Paula-1357936016.mp3" id="10_ijfsv"]
+[ext_resource type="AudioStream" uid="uid://c36mqcmnk8un" path="res://Sounds/cmondude.mp3" id="11_32dcv"]
+[ext_resource type="Script" path="res://CSharpClasses/Button3Pipe.cs" id="12_fiflb"]
+[ext_resource type="AudioStream" uid="uid://dtlhompowrde" path="res://Sounds/metal-pipe-falling-sound-effect.mp3" id="13_gfwwi"]
+[ext_resource type="Script" path="res://CSharpClasses/Button4Nepeta.cs" id="14_nul0c"]
+[ext_resource type="AudioStream" uid="uid://dq7241yi01y00" path="res://Sounds/musicnote9.wav" id="15_7m6rr"]
+[ext_resource type="AudioStream" uid="uid://6usa6ht1wrch" path="res://Sounds/justdoit.mp3" id="15_eux2v"]
+[ext_resource type="AudioStream" uid="uid://bf6r8fv46tsy5" path="res://Sounds/BOOM.mp3" id="16_6oxm8"]
+[ext_resource type="AudioStream" uid="uid://kd0teyk1rdy1" path="res://Sounds/sparkleon-final.mp3" id="17_6mxi6"]
+[ext_resource type="AudioStream" uid="uid://cgpabjdseofl0" path="res://Sounds/fart2.wav" id="17_acdoe"]
+[ext_resource type="AudioStream" uid="uid://k80c0djkn5pm" path="res://Sounds/20220115_Rainstick Sound Effect - Rain Maker Instrument.mp3" id="18_xwbdq"]
+[ext_resource type="AudioStream" uid="uid://s3fvousw6bfe" path="res://Sounds/20120904_water dripping - sound effect.mp3" id="19_8an7t"]
+[ext_resource type="AudioStream" uid="uid://eig0t4pti3vp" path="res://Sounds/20180620_Water Drop Sound Effect.mp3" id="20_rkvo5"]
+[ext_resource type="AudioStream" uid="uid://bk25o70pa0k4t" path="res://Sounds/fart-180832.mp3" id="21_rwqe1"]
+[ext_resource type="AudioStream" uid="uid://brfj806x8uouv" path="res://Sounds/pouring-water-long-98820.mp3" id="21_sjp0y"]
+[ext_resource type="AudioStream" uid="uid://dw0mjdxv0xmdv" path="res://Sounds/20190128_His hair wack! full version.mp3" id="23_1q27q"]
+[ext_resource type="AudioStream" uid="uid://cqtabe5q2gd4t" path="res://Sounds/vine-boom-162668.mp3" id="24_74a7d"]
+[ext_resource type="Script" path="res://CSharpClasses/Button14Paintbrush.cs" id="26_eqmsq"]
+[ext_resource type="AudioStream" uid="uid://d36lkaxp7lwn1" path="res://Sounds/timetoduel.mp3" id="28_7qs6y"]
+[ext_resource type="Script" path="res://CSharpClasses/Button16TimeToFunk.cs" id="29_p80r8"]
+[ext_resource type="AudioStream" uid="uid://cltt5kqjfpxse" path="res://Sounds/ddduelmusic.mp3" id="29_vxlr4"]
+[ext_resource type="Script" path="res://CSharpClasses/Button17Lighter.cs" id="30_3l15s"]
+[ext_resource type="AudioStream" uid="uid://cnh5lhrdnqc1b" path="res://Sounds/fire.mp3" id="31_taaxs"]
+[ext_resource type="Texture2D" uid="uid://cvlqwldp7mxa" path="res://Images/ChaosButtonUnpressed.png" id="32_tncbj"]
+[ext_resource type="AudioStream" uid="uid://bdrqbem0b03vb" path="res://Sounds/a-dud.mp3" id="32_w7bxt"]
+[ext_resource type="Texture2D" uid="uid://bjkymj8bg0r18" path="res://Images/ChaosButtonPressed.png" id="33_mqw7y"]
+[ext_resource type="Script" path="res://CSharpClasses/Button20Chaos.cs" id="34_d27nh"]
+[ext_resource type="AudioStream" uid="uid://dn20qapij6nsu" path="res://Sounds/fuck.mp3" id="35_5racd"]
+[ext_resource type="Texture2D" uid="uid://c63pj7x7u7w78" path="res://Images/t-for-teens.png" id="35_7wnlu"]
+[ext_resource type="AudioStream" uid="uid://b8fh6hfjagftt" path="res://Sounds/congrats.mp3" id="36_ehsyu"]
+[ext_resource type="Texture2D" uid="uid://c11h3ch88f4tr" path="res://Images/t-for-teens-pressed.png" id="36_n72k0"]
+[ext_resource type="AudioStream" uid="uid://eof4egwj5g87" path="res://Sounds/fuck-you.mp3" id="37_k8214"]
+
+[node name="MainScreen" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 596.0
+offset_bottom = 799.0
+color = Color(0.647059, 0.792157, 0.486275, 1)
+
+[node name="Walls" type="StaticBody2D" parent="."]
+
+[node name="polygon2d" type="CollisionPolygon2D" parent="Walls"]
+polygon = PackedVector2Array(0, 0, 596, 0, 596, 799, 0, 799, 0, 5, -29, -12, -23, 827, 643, 831, 649, -25, -23, -46)
+
+[node name="Options" parent="." instance=ExtResource("1_luay3")]
+visible = false
+
+[node name="PlayingSpace" type="Node2D" parent="."]
+script = ExtResource("2_4ydm8")
+soundToPlay = ExtResource("3_s6vih")
+
+[node name="MouseCursor" type="Node" parent="PlayingSpace"]
+script = ExtResource("1_p1o3u")
+
+[node name="StopAllSoundsButton" type="TextureButton" parent="PlayingSpace"]
+offset_left = 18.0
+offset_top = 625.0
+offset_right = 165.0
+offset_bottom = 772.0
+texture_normal = ExtResource("2_agngd")
+texture_pressed = ExtResource("3_uumao")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("4_v0dhb")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="PlayingSpace/StopAllSoundsButton"]
+layout_mode = 0
+offset_left = 167.0
+offset_top = 49.0
+offset_right = 426.0
+offset_bottom = 109.0
+theme_override_colors/default_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 40
+text = "Stop Noises"
+
+[node name="OpenSettingsButton" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 475.0
+offset_top = 675.0
+offset_right = 565.0
+offset_bottom = 765.0
+grow_horizontal = 0
+grow_vertical = 0
+size_flags_horizontal = 4
+texture_normal = ExtResource("5_mc3vq")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("6_hxemp")
+
+[node name="Button1Fart" type="TextureButton" parent="PlayingSpace"]
+offset_left = 23.0
+offset_top = 22.0
+offset_right = 111.0
+offset_bottom = 112.0
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("10_ijfsv")
+
+[node name="fxLabel" type="RichTextLabel" parent="PlayingSpace/Button1Fart"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -12.968
+offset_top = -28.0
+offset_right = 44.032
+offset_bottom = 36.0
+mouse_filter = 2
+mouse_force_pass_scroll_events = false
+theme_override_font_sizes/normal_font_size = 40
+text = "1"
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button2Cmon" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 144.0
+offset_top = 6.0
+offset_right = 232.0
+offset_bottom = 96.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("11_32dcv")
+
+[node name="fxLabel" type="RichTextLabel" parent="PlayingSpace/Button2Cmon"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -12.968
+offset_top = -28.0
+offset_right = 54.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "2"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button3Pipe" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 256.0
+offset_top = 24.0
+offset_right = 344.0
+offset_bottom = 114.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("12_fiflb")
+soundToPlay = ExtResource("13_gfwwi")
+boomSoundToPlay = ExtResource("16_6oxm8")
+sparkleSoundToPlay = ExtResource("17_6mxi6")
+
+[node name="fxLabel" type="RichTextLabel" parent="PlayingSpace/Button3Pipe"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -12.968
+offset_top = -28.0
+offset_right = 54.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "3"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button4Nepeta" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 373.0
+offset_top = 24.0
+offset_right = 461.0
+offset_bottom = 114.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("14_nul0c")
+soundToPlay = ExtResource("15_7m6rr")
+
+[node name="fxLabel" type="RichTextLabel" parent="PlayingSpace/Button4Nepeta"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -12.968
+offset_top = -28.0
+offset_right = 54.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "4
+"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button5Inspirational" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 492.0
+offset_top = 4.0
+offset_right = 580.0
+offset_bottom = 94.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("15_eux2v")
+
+[node name="fxLabel" type="RichTextLabel" parent="PlayingSpace/Button5Inspirational"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -12.968
+offset_top = -28.0
+offset_right = 54.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "5
+"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button6FartAgain" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 16.0
+offset_top = 139.0
+offset_right = 104.0
+offset_bottom = 229.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("17_acdoe")
+
+[node name="fxLabel" type="RichTextLabel" parent="PlayingSpace/Button6FartAgain"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -12.968
+offset_top = -28.0
+offset_right = 54.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "6
+"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button7RainMaker" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 150.0
+offset_top = 125.0
+offset_right = 238.0
+offset_bottom = 215.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("18_xwbdq")
+
+[node name="fxLabel" type="RichTextLabel" parent="PlayingSpace/Button7RainMaker"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -12.968
+offset_top = -28.0
+offset_right = 54.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "7"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button8Drip" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 242.0
+offset_top = 119.0
+offset_right = 330.0
+offset_bottom = 209.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("19_8an7t")
+
+[node name="8Label" type="RichTextLabel" parent="PlayingSpace/Button8Drip"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -12.968
+offset_top = -28.0
+offset_right = 65.032
+offset_bottom = 24.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "8"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button9Drop" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 384.0
+offset_top = 146.0
+offset_right = 472.0
+offset_bottom = 236.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("20_rkvo5")
+
+[node name="fxlabel" type="RichTextLabel" parent="PlayingSpace/Button9Drop"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -12.968
+offset_top = -28.0
+offset_right = 54.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "9"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button10BucketWater" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 480.0
+offset_top = 137.0
+offset_right = 568.0
+offset_bottom = 227.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("21_sjp0y")
+
+[node name="fxlabel" type="RichTextLabel" parent="PlayingSpace/Button10BucketWater"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -23.968
+offset_top = -28.0
+offset_right = 43.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "10"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button11FartShort" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 19.0
+offset_top = 311.0
+offset_right = 107.0
+offset_bottom = 401.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("21_rwqe1")
+
+[node name="fxlabel" type="RichTextLabel" parent="PlayingSpace/Button11FartShort"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -23.968
+offset_top = -28.0
+offset_right = 43.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "11"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button12LackingVineBoom" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 131.0
+offset_top = 252.0
+offset_right = 219.0
+offset_bottom = 342.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("23_1q27q")
+
+[node name="fxlabel" type="RichTextLabel" parent="PlayingSpace/Button12LackingVineBoom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -23.968
+offset_top = -28.0
+offset_right = 43.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "12
+"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button13VineBoom" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 251.0
+offset_top = 252.0
+offset_right = 339.0
+offset_bottom = 342.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("24_74a7d")
+
+[node name="fxlabel" type="RichTextLabel" parent="PlayingSpace/Button13VineBoom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -23.968
+offset_top = -28.0
+offset_right = 43.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "13
+"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button14Paintbrush" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 375.0
+offset_top = 268.0
+offset_right = 463.0
+offset_bottom = 358.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("26_eqmsq")
+
+[node name="fxlabel" type="RichTextLabel" parent="PlayingSpace/Button14Paintbrush"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -23.968
+offset_top = -28.0
+offset_right = 43.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "14"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button15TimeToDuel" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 479.0
+offset_top = 267.0
+offset_right = 567.0
+offset_bottom = 357.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("28_7qs6y")
+
+[node name="fxlabel" type="RichTextLabel" parent="PlayingSpace/Button15TimeToDuel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -23.968
+offset_top = -28.0
+offset_right = 43.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "15
+"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button16TimeToFunk" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 86.0
+offset_top = 400.0
+offset_right = 174.0
+offset_bottom = 490.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("29_p80r8")
+soundToPlay = ExtResource("29_vxlr4")
+
+[node name="fxlabel" type="RichTextLabel" parent="PlayingSpace/Button16TimeToFunk"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -23.968
+offset_top = -28.0
+offset_right = 43.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "16"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button17Lighter" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 182.0
+offset_top = 388.0
+offset_right = 270.0
+offset_bottom = 478.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("30_3l15s")
+soundToPlay = ExtResource("31_taaxs")
+
+[node name="fxlabel" type="RichTextLabel" parent="PlayingSpace/Button17Lighter"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -23.968
+offset_top = -28.0
+offset_right = 43.032
+offset_bottom = 39.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "17"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button18ADud" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 284.0
+offset_top = 358.0
+offset_right = 372.0
+offset_bottom = 448.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("32_w7bxt")
+
+[node name="8label" type="RichTextLabel" parent="PlayingSpace/Button18ADud"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -23.968
+offset_top = -28.0
+offset_right = 105.032
+offset_bottom = 32.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "18"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button19Congrats" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 376.0
+offset_top = 398.0
+offset_right = 464.0
+offset_bottom = 488.0
+grow_horizontal = 2
+texture_normal = ExtResource("7_6imur")
+texture_pressed = ExtResource("8_nlq4y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("36_ehsyu")
+
+[node name="fxLabel" type="RichTextLabel" parent="PlayingSpace/Button19Congrats"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -23.968
+offset_top = -28.0
+offset_right = 52.032
+offset_bottom = 32.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "19"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="Button20Chaos" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 462.0
+offset_top = 541.0
+offset_right = 550.0
+offset_bottom = 631.0
+grow_horizontal = 2
+texture_normal = ExtResource("32_tncbj")
+texture_pressed = ExtResource("33_mqw7y")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("34_d27nh")
+soundToPlay = ExtResource("35_5racd")
+
+[node name="fxLabel" type="RichTextLabel" parent="PlayingSpace/Button20Chaos"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.511
+anchor_top = 0.5
+anchor_right = 0.511
+anchor_bottom = 0.5
+offset_left = -23.968
+offset_top = -28.0
+offset_right = 52.032
+offset_bottom = 32.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 40
+text = "20"
+scroll_active = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+
+[node name="TForTeen" type="TextureButton" parent="PlayingSpace"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 410.0
+offset_top = 537.0
+offset_right = 459.0
+offset_bottom = 610.0
+grow_horizontal = 2
+texture_normal = ExtResource("35_7wnlu")
+texture_pressed = ExtResource("36_n72k0")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_u4l71")
+soundToPlay = ExtResource("37_k8214")
+
+[connection signal="TriggerBurningOff" from="PlayingSpace/StopAllSoundsButton" to="PlayingSpace/Button17Lighter" method="DisableRocking"]
+[connection signal="TriggerChaosOff" from="PlayingSpace/StopAllSoundsButton" to="PlayingSpace/Button20Chaos" method="ChaosOff"]
+[connection signal="TriggerPaintingOff" from="PlayingSpace/StopAllSoundsButton" to="PlayingSpace/Button14Paintbrush" method="DisablePainting"]
+[connection signal="pressed" from="PlayingSpace/StopAllSoundsButton" to="PlayingSpace/StopAllSoundsButton" method="SilenceAllButtonNoises"]
+[connection signal="pressed" from="PlayingSpace/OpenSettingsButton" to="Options" method="ShowOptions"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button1Fart" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button1Fart" to="PlayingSpace/Button1Fart" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button2Cmon" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button2Cmon" to="PlayingSpace/Button2Cmon" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button3Pipe" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="StopMusic" from="PlayingSpace/Button3Pipe" to="PlayingSpace/StopAllSoundsButton" method="SearchForSound"]
+[connection signal="pressed" from="PlayingSpace/Button3Pipe" to="PlayingSpace/Button3Pipe" method="CreateFallingButton"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button4Nepeta" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button4Nepeta" to="PlayingSpace/Button4Nepeta" method="CreateNepeta"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button5Inspirational" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button5Inspirational" to="PlayingSpace/Button5Inspirational" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button6FartAgain" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button6FartAgain" to="PlayingSpace/Button6FartAgain" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button7RainMaker" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button7RainMaker" to="PlayingSpace/Button7RainMaker" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button8Drip" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button8Drip" to="PlayingSpace/Button8Drip" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button9Drop" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button9Drop" to="PlayingSpace/Button9Drop" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button10BucketWater" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button10BucketWater" to="PlayingSpace/Button10BucketWater" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button11FartShort" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button11FartShort" to="PlayingSpace/Button11FartShort" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button12LackingVineBoom" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button12LackingVineBoom" to="PlayingSpace/Button12LackingVineBoom" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button13VineBoom" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button13VineBoom" to="PlayingSpace/Button13VineBoom" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button14Paintbrush" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="TriggerBurningOff" from="PlayingSpace/Button14Paintbrush" to="PlayingSpace/Button17Lighter" method="DisableRocking"]
+[connection signal="pressed" from="PlayingSpace/Button14Paintbrush" to="PlayingSpace/Button14Paintbrush" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button15TimeToDuel" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button15TimeToDuel" to="PlayingSpace/Button15TimeToDuel" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button16TimeToFunk" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button16TimeToFunk" to="PlayingSpace/Button16TimeToFunk" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button17Lighter" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="TriggerPaintingOff" from="PlayingSpace/Button17Lighter" to="PlayingSpace/Button14Paintbrush" method="DisablePainting"]
+[connection signal="pressed" from="PlayingSpace/Button17Lighter" to="PlayingSpace/Button17Lighter" method="PlaySound"]
+[connection signal="pressed" from="PlayingSpace/Button17Lighter" to="PlayingSpace/Button17Lighter" method="EnableRocking"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button18ADud" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button18ADud" to="PlayingSpace/Button18ADud" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button19Congrats" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/Button19Congrats" to="PlayingSpace/Button19Congrats" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/Button20Chaos" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="TriggerBurningOn" from="PlayingSpace/Button20Chaos" to="PlayingSpace/Button17Lighter" method="BurningOn"]
+[connection signal="TriggerPaintingOn" from="PlayingSpace/Button20Chaos" to="PlayingSpace/Button14Paintbrush" method="PaintingOn"]
+[connection signal="pressed" from="PlayingSpace/Button20Chaos" to="PlayingSpace/Button20Chaos" method="PlaySound"]
+[connection signal="ProgressSpell" from="PlayingSpace/TForTeen" to="PlayingSpace" method="HandleSpellSignals"]
+[connection signal="pressed" from="PlayingSpace/TForTeen" to="PlayingSpace/TForTeen" method="PlaySound"]
