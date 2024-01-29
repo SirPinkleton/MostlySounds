@@ -1,9 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://bfr0v6tn5p4ku"]
+[gd_scene load_steps=2 format=3 uid="uid://bfr0v6tn5p4ku"]
 
 [ext_resource type="Texture2D" uid="uid://goc7yo6g2h1y" path="res://Images/scroll.png" id="1_ffvgw"]
-
-[sub_resource type="SystemFont" id="SystemFont_1g0pn"]
-font_names = PackedStringArray("Benne")
 
 [node name="Spell Instructions" type="Node2D"]
 
@@ -19,10 +16,9 @@ layout_mode = 0
 offset_left = 162.0
 offset_top = 110.0
 offset_right = 546.0
-offset_bottom = 694.0
+offset_bottom = 1308.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
-theme_override_fonts/normal_font = SubResource("SystemFont_1g0pn")
-theme_override_font_sizes/normal_font_size = 30
+theme_override_font_sizes/normal_font_size = 20
 text = "
 Witch Sound Spell
 1 : cleeur te spelle spaece

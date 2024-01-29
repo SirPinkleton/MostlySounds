@@ -68,6 +68,7 @@ public partial class Button17Lighter : TextureButton
 		// Changes only the arrow shape of the cursor.
 		// This is similar to changing it in the project settings.
 		Input.SetCustomMouseCursor(arrow);
+		burnNumber = 0;
 	}
 
 	private void BurningOn()
