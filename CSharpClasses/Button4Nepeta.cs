@@ -58,7 +58,7 @@ public partial class Button4Nepeta : TextureButton
 		var playingSpace = GetNode("../../PlayingSpace");
 		int amountOfPaint = SearchForThing(playingSpace, "Stroke");
 		GD.Print($"number of paints found: {amountOfPaint}");
-		if (amountOfPaint > 300)
+		if (amountOfPaint > 150)
 		{
 			EmitSignal("ProgressSpell", 3);
 		}

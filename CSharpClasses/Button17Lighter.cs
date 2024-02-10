@@ -40,7 +40,7 @@ public partial class Button17Lighter : TextureButton
 					float randomScale = (float)GD.RandRange(0.6,1.2);
 					string image = "burn";
 					var parent = GetNode<CastSpell>("..");
-					if (parent.currentSpellStep == 1 || burnNumber > 75)
+					if (parent.currentSpellStep == 1 || burnNumber > 50)
 					{
 						image = "goldburn";
 					}

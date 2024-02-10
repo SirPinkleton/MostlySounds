@@ -28,14 +28,14 @@ public partial class Button14Paintbrush : TextureButton
 				float xColor = 0;
 				float yColor = 0;
 				float zColor = 0;
-				if (spellParent.currentSpellStep > 0 && strokeNumber < 300)
+				if (spellParent.currentSpellStep > 0 && strokeNumber < 150)
 				{
-					//pick red
+					//pick blue
 					xColor = 1;
 					yColor = 0;
 					zColor = 0;
 				}
-				else if (spellParent.currentSpellStep > 0 && strokeNumber >= 300)
+				else if (spellParent.currentSpellStep > 0 && strokeNumber >= 150)
 				{
 					//pick red
 					xColor = 0;
@@ -82,7 +82,7 @@ public partial class Button14Paintbrush : TextureButton
 		var playingSpace = GetNode("../../PlayingSpace");
 		int amountOfBurn = SearchForThing(playingSpace, "Burn");
 		GD.Print($"number of burns found: {amountOfBurn}");
-		if (amountOfBurn > 75)
+		if (amountOfBurn > 50)
 		{
 			EmitSignal("ProgressSpell", 2);
 		}
